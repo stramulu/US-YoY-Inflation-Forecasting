@@ -5,6 +5,7 @@ This project forecasts U.S. year-over-year inflation using CPI data from the Fed
 ## Files
 - **forecasting.ipynb** – Main notebook containing model training, evaluation, and forecasting pipeline.
 - **cpi_monthly.csv** – Monthly CPI data obtained from FRED (required to run the notebook).
+- **requirements.txt** – List of libraries to install for project to run
 
 ## Methodology
 1. **Data Preparation**
@@ -26,3 +27,29 @@ This project forecasts U.S. year-over-year inflation using CPI data from the Fed
 ## Results
 - The ensemble method produced the most accurate and stable forecasts.
 - Predictions closely align with the July 2025 CPI report, supporting the model’s validity in the near term.
+
+## How to Run
+
+1. Clone the repository and navigate into the project folder:
+
+   ```bash
+   git clone https://github.com/your-username/US-YoY-Inflation-Forecasting.git
+   cd US-YoY-Inflation-Forecasting
+   
+2. Create and activate a virtual environment (recommended):
+
+   ```bash
+   python3.10 -m venv venv
+   source venv/bin/activate   # On macOS/Linux
+   venv\Scripts\activate      # On Windows
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the cells in forecast.py step by step to reproduce the results.
+
+5. For mac users:
+
+   
