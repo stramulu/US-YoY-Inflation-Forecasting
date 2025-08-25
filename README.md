@@ -50,6 +50,19 @@ This project forecasts U.S. year-over-year inflation using CPI data from the Fed
 
 4. Run the cells in forecast.py step by step to reproduce the results.
 
-5. For mac users:
+5. For mac users with an M1 chip or later:
 
+   Replace:
+
+      ```bash
+      tensorflow==2.15.0
+      ```
+      
+   With:
    
+      ```bash
+      tensorflow-macos==2.15.0
+      tensorflow-metal==1.1.0
+      ```
+
+   in the requirements.txt file
