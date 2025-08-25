@@ -3,7 +3,7 @@
 This project forecasts U.S. year-over-year inflation using CPI data from the Federal Reserve Bank of St. Louis (FRED).
 
 ## Files
-- **forecasting.ipynb** – Main notebook containing model training, evaluation, and forecasting pipeline.
+- **forecast.ipynb** – Main notebook containing model training, evaluation, and forecasting pipeline.
 - **cpi_monthly.csv** – Monthly CPI data obtained from FRED (required to run the notebook).
 - **requirements.txt** – List of libraries to install for project to run
 
@@ -31,7 +31,7 @@ This project forecasts U.S. year-over-year inflation using CPI data from the Fed
 ## Quick View
 
 If you only want to **see the forecasts and outputs**, you don’t need to install anything.  
-Simply open [`forecasting.ipynb`](./forecasting.ipynb) in GitHub — all results, plots, and explanations are saved in the notebook itself.
+Simply open [`forecast.ipynb`](./forecast.ipynb) in GitHub — all results, plots, and explanations are saved in the notebook itself.
 
 ## How to Run
 
