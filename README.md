@@ -28,6 +28,11 @@ This project forecasts U.S. year-over-year inflation using CPI data from the Fed
 - The ensemble method produced the most accurate and stable forecasts.
 - Predictions closely align with the July 2025 CPI report, supporting the model’s validity in the near term.
 
+## Quick View
+
+If you only want to **see the forecasts and outputs**, you don’t need to install anything.  
+Simply open [`forecasting.ipynb`](./forecasting.ipynb) in GitHub — all results, plots, and explanations are saved in the notebook itself.
+
 ## How to Run
 
 1. Clone the repository and navigate into the project folder:
